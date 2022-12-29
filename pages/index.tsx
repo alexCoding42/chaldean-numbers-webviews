@@ -17,8 +17,8 @@ export default function Home() {
         {refreshToken && (
           <>
             <div className={styles.text}>
-              Your email has been verified. You can close this page and login to
-              the application.
+              Your email has been verified. You can close this page and login
+              through the application.
             </div>
             <div className={styles.closeContainer}>
               <div
@@ -38,7 +38,9 @@ export default function Home() {
           <>
             <div className={styles.text}>{errorDescription}</div>
             <div className={styles.text}>
-              Please ask for a new email verification through the application.
+              Either you have already confirmed your email, or the confirmation
+              link has expired. If the confirmation link has expired you can ask
+              for a new confirmation link through the application.
             </div>
             <div className={styles.closeContainer}>
               <div
