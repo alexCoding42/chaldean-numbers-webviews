@@ -8,50 +8,16 @@
   background: linear-gradient(to bottom right, #4a556d, #272c42);
 }
 
-.text {
+.title {
   font-size: large;
   text-align: center;
-  font-weight: 500;
+  font-weight: bold;
   color: #ffffff;
 }
 
-.closeContainer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
-}
-
-.closingCross {
-  color: #ffffff;
+.description {
+  margin-top: 8px;
   font-size: large;
-  position: relative;
-  top: 0;
-  right: 0;
-}
-
-.button {
-  margin-top: 16px;
-  width: 90vw;
-  background: linear-gradient(to right, #27869a, #1b6270);
-  border-radius: 50px;
-  padding: 16px;
   text-align: center;
-  font-weight: 400;
-}
-
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-}
-
-@media (prefers-reduced-motion) {
-}
-
-/* Tablet and desktop */
-@media (min-width: 700px) {
-  .button {
-    width: 250px;
-  }
+  color: #ffffff;
 }

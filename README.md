@@ -3,7 +3,7 @@
 **Description:** This web application was created to allow users of the mobile application Chaldean Numbers to perform some actions easily; such as confirming their email or reset their password,
 
 **How to use:**
-Clone the repository and install the dependencies `yarn install` then run `yarn dev`
+This application can only be used as webviews through the mobile application.
 
 **Features:**
 Access confirm email page
